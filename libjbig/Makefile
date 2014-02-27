@@ -45,4 +45,4 @@ t82test.pbm: tstcodec
 
 clean:
 	rm -f *.{o,gcda,gcno,gcov} *~ core gmon.out dbg_d\=??.pbm t82test.pbm
-	rm -f tstcodec tstcodec85
+	rm -f tstcodec tstcodec85 libjbig.a libjbig85.a

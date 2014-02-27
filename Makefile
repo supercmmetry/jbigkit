@@ -1,6 +1,9 @@
 # Unix makefile for JBIG-KIT
 # $Id: Makefile 1303 2008-08-30 20:16:20Z mgk25 $
 
+PREFIX = /usr
+LIBDIR = lib
+
 # Select an ANSI/ISO C compiler here, GNU gcc is recommended
 CC = gcc
 
@@ -36,3 +39,12 @@ distribution: clean
 	  gzip -9f jbigkit-$(VERSION).tar )
 	scp ../jbigkit-$(VERSION).tar.gz slogin-serv1.cl.cam.ac.uk:public_html/download/
 	scp CHANGES slogin-serv1.cl.cam.ac.uk:public_html/jbigkit/
+
+install: all
+	install -d $(DESTDIR)$(PREFIX)/include -d $(DESTDIR)$(PREFIX)/$(LIBDIR) $(DESTDIR)$(PREFIX)/bin
+	install -m 644 -D libjbig/*.h $(DESTDIR)$(PREFIX)/include
+	install -m 644 -D libjbig/*.a $(DESTDIR)$(PREFIX)/$(LIBDIR)
+	install -m 755 -D pbmtools/jbgtopbm pbmtools/jbgtopbm85 pbmtools/pbmtojbg pbmtools/pbmtojbg85 $(DESTDIR)$(PREFIX)/bin
+
+
+distclean: clean
