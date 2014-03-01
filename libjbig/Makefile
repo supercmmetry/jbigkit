@@ -3,6 +3,8 @@
 
 # Select an ANSI/ISO C compiler here, GNU gcc is recommended
 CC = gcc
+AR = ar
+RANLIB = ranlib
 
 # Options for the compiler: A high optimization level is suggested
 CFLAGS = -g -O -Wall -ansi -pedantic # --coverage
@@ -17,13 +19,13 @@ tstcodec85: tstcodec85.o jbig85.o jbig_ar.o
 
 libjbig.a: jbig.o jbig_ar.o
 	rm -f libjbig.a
-	ar rc libjbig.a jbig.o jbig_ar.o
-	-ranlib libjbig.a
+	$(AR) rc libjbig.a jbig.o jbig_ar.o
+	$(RANLIB) libjbig.a
 
 libjbig85.a: jbig85.o jbig_ar.o
 	rm -f libjbig85.a
-	ar rc libjbig85.a jbig85.o jbig_ar.o
-	-ranlib libjbig85.a
+	$(AR) rc libjbig85.a jbig85.o jbig_ar.o
+	$(RANLIB) libjbig85.a
 
 jbig.o: jbig.c jbig.h jbig_ar.h
 jbig85.o: jbig85.c jbig85.h jbig_ar.h
