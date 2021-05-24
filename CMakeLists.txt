@@ -34,3 +34,5 @@ target_link_libraries(jbig85 PUBLIC jbig_ar)
 target_link_libraries(tstcodec PUBLIC jbig)
 target_link_libraries(tstcodec85 PUBLIC jbig85)
 
+install(TARGETS tstcodec tstcodec85 DESTINATION bin)
+install(TARGETS jbig jbig85 jbig_ar DESTINATION lib)
