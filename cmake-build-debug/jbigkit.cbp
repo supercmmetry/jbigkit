@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jbigkit"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jbig85">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/lib/libjbig85.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 jbig85"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jbig85/fast">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/lib/libjbig85.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 jbig85/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tstcodec">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin/tstcodec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 tstcodec"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tstcodec/fast">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin/tstcodec" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 tstcodec/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tstcodec85">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin/tstcodec85" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 tstcodec85"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tstcodec85/fast">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin/tstcodec85" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 tstcodec85/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jbig">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/lib/libjbig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 jbig"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jbig/fast">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/lib/libjbig.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 jbig/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jbig_ar">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/lib/libjbig_ar.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 jbig_ar"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jbig_ar/fast">
+				<Option output="/home/supercmmetry/Projects/jbigkit/cmake-build-debug/lib/libjbig_ar.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/supercmmetry/Projects/jbigkit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/supercmmetry/Projects/jbigkit/libjbig"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/clang/11.1.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 jbig_ar/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/supercmmetry/Projects/jbigkit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/jbig.c">
+			<Option target="jbig"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/jbig.h">
+			<Option target="tstcodec"/>
+			<Option target="jbig"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/jbig85.c">
+			<Option target="jbig85"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/jbig85.h">
+			<Option target="jbig85"/>
+			<Option target="tstcodec85"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/jbig_ar.c">
+			<Option target="jbig_ar"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/jbig_ar.h">
+			<Option target="jbig85"/>
+			<Option target="jbig"/>
+			<Option target="jbig_ar"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/tstcodec.c">
+			<Option target="tstcodec"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/libjbig/tstcodec85.c">
+			<Option target="tstcodec85"/>
+		</Unit>
+		<Unit filename="/home/supercmmetry/Projects/jbigkit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

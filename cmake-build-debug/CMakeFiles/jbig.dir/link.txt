@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libjbig.a  CMakeFiles/jbig.dir/libjbig/jbig.c.o
+/usr/bin/ranlib lib/libjbig.a

@@ -1,0 +1,1 @@
+/usr/bin/clang -g   CMakeFiles/tstcodec85.dir/libjbig/tstcodec85.c.o  -o bin/tstcodec85  lib/libjbig85.a lib/libjbig_ar.a 
