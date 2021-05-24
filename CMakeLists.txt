@@ -22,15 +22,15 @@ add_library(jbig_ar STATIC
 add_library(jbig STATIC
         libjbig/jbig.h
         libjbig/jbig.c
-        libjbig/jbig_ar.h)
+        libjbig/jbig_ar.h
+        libjbig/jbig_ar.c)
 
 add_library(jbig85 STATIC
         libjbig/jbig85.h
         libjbig/jbig85.c
-        libjbig/jbig_ar.h)
+        libjbig/jbig_ar.h
+        libjbig/jbig_ar.c)
 
-target_link_libraries(jbig PUBLIC jbig_ar)
-target_link_libraries(jbig85 PUBLIC jbig_ar)
 target_link_libraries(tstcodec PUBLIC jbig)
 target_link_libraries(tstcodec85 PUBLIC jbig85)
 
