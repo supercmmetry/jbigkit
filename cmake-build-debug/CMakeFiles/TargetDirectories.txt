@@ -1,7 +1,0 @@
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/jbig85.dir
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/tstcodec.dir
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/tstcodec85.dir
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/jbig.dir
-/home/supercmmetry/Projects/jbigkit/cmake-build-debug/CMakeFiles/jbig_ar.dir
